@@ -24,16 +24,3 @@ const arrayFromPermutation = (nums = [0, 2, 1, 5, 3, 4]) => {
 
   return [0, 1, 2, 4, 5, 3];
 };
-
-var objInput = {
-  test: "asd",
-};
-
-function mutateFunction(obj) {
-  obj = {
-    test: "edit",
-  };
-  console.log({ objInput });
-}
-
-mutateFunction(objInput);
