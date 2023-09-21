@@ -13,3 +13,24 @@ user.age; // O(1)
 // Map cho phép lưu key ở bất kì dạng dữ liệu
 // Map có thứ tự
 const a = new Map();
+
+const findRecurringNumber = (a = [2, 5, 1, 3]) => {
+  if (!a || !a.length) return;
+
+  let recurringList = {};
+  let returnValue;
+
+  for (const element of a) {
+    const isEixst = recurringList[element];
+
+    if (isEixst) {
+      recurringList[element] += 1;
+    } else recurringList[element] = 1;
+
+    if (recurringList[element] > 1) returnValue = element;
+  }
+
+  return returnValue;
+};
+
+console.log(findRecurringNumber());
