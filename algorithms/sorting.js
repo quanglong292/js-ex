@@ -13,6 +13,20 @@ const selectionSort = (array = [2, 3, 1, 4, 1, 3213]) => {
   return array;
 };
 
-console.log(selectionSort()); // O(n*n)
+// console.log(selectionSort()); // O(n*n)
 
+const mergeSort = (array = [2, 3, 1, 4, 1, 3213]) => {
+  const length = array.length;
+  if (!length || length === 1) return array;
 
+  const splitNumber = Math.floor(length / 2);
+  const left = array.slice(0, splitNumber);
+  const right = array.slice(splitNumber);
+
+  const mergeSort = (left, right) => {};
+  const sort = (array) => {}
+
+  return mergeSort(sort(left), sort(right));
+};
+
+console.log(mergeSort());
