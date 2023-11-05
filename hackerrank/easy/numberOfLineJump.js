@@ -1,13 +1,11 @@
-const kangaroo = (x1, v1, x2, v2) => {
-  let kang1 = x1;
-  let kang2 = x2;
-  let step = 0;
+const numberOfLineJump = (x1, v1, x2, v2) => {
+  if ((x1 <= x2 && v1 <= v2) || (x2 <= x1 && v2 <= v1)) return "NO";
 
-  if (x1 < x2 && v1 < v2) return "NO";
+  const s1 = x2 - v1;
+  const s2 = v1 - v2;
 
-  
-
-  return "YES";
+  if (!(s1 % s2)) return "YES";
+  else return "NO";
 };
 
-console.log(kangaroo(21, 6, 47, 3));
+console.log(numberOfLineJump(43, 2, 70, 2));
