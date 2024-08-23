@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/great_fe/medium/deepEqual.js"
+            "program": "${workspaceFolder}/great_fe/easy/deleteOneElement.js"
         }
     ]
 }
