@@ -1,3 +1,5 @@
+// Group elements into chunks
+
 const chunk = (arr, n = 1) => {
   const returnVal = [];
   let range = [];
