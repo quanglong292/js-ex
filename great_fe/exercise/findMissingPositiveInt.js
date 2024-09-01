@@ -11,7 +11,7 @@ function solution(A) {
     if (isInt && el === returnVal) {
       returnVal += 1;
     }
-  }
+  }    
 
   return returnVal;
 }
