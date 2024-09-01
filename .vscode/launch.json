@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/great_fe/medium/myConcat.js"
+            "program": "${workspaceFolder}/great_fe/medium/makeCounter2.js"
         }
     ]
 }
