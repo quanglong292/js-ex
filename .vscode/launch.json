@@ -11,7 +11,8 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/great_fe/medium/makeCounter2.js"
+            // "program": "${workspaceFolder}/great_fe/medium/makeCounter2.js",
+            "program": "${workspaceFolder}/practices/day_1/sorting.js",
         }
     ]
 }
