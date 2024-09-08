@@ -14,6 +14,7 @@
             // "program": "${workspaceFolder}/great_fe/easy/sleep.js",
             "program": "${workspaceFolder}/great_fe/medium/countBy.js",
             // "program": "${workspaceFolder}/practices/day_1/sorting.js",
+            "program": "${workspaceFolder}/great_fe/medium/binarySearch.js"
         }
     ]
 }
