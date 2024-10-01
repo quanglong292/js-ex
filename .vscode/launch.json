@@ -12,9 +12,7 @@
                 "<node_internals>/**"
             ],
             // "program": "${workspaceFolder}/great_fe/easy/sleep.js",
-            "program": "${workspaceFolder}/great_fe/medium/mergeData.js",
             // "program": "${workspaceFolder}/practices/day2/sorting.js",
-            // "program": "${workspaceFolder}/great_fe/medium/groupBy.js",
             "program": "${workspaceFolder}/great_fe/medium/intersectionBy.js",
             // "program": "${workspaceFolder}/practices/day_1/sorting.js",
             // "program": "${workspaceFolder}/great_fe/medium/binarySearch.js"
