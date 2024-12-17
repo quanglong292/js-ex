@@ -19,7 +19,7 @@ function getElementsByTagName(doc, tag) {
     const tagName = doc.tagName?.toLowerCase();
 
     if (tagName === tag) {
-        elements.push(doc);
+      elements.push(doc);
     }
 
     for (let i = 0; i < childNodes.length; i++) {
@@ -34,30 +34,30 @@ function getElementsByTagName(doc, tag) {
 }
 
 function getElementsByTagName2(element, tagNameParam) {
-    const elements = [];
-    const tagName = tagNameParam.toUpperCase();
-  
-    function traverse(el) {
-      if (el == null) {
-        return;
-      }
-  
-      if (el.tagName === tagName) {
-        elements.push(el);
-      }
-  
-      for (const child of el.children) {
-        traverse(child);
-      }
+  const elements = [];
+  const tagName = tagNameParam.toUpperCase();
+
+  function traverse(el) {
+    if (el == null) {
+      return;
     }
-  
-    for (const child of element.children) {
+
+    if (el.tagName === tagName) {
+      elements.push(el);
+    }
+
+    for (const child of el.children) {
       traverse(child);
     }
-  
-    return elements;
   }
 
-console.log( getElementsByTagName(document2.body, "div"));
-console.log( getElementsByTagName2(document2.body, "div"));
+  for (const child of element.children) {
+    traverse(child);
+  }
+
+  return elements;
+}
+
+console.log(getElementsByTagName(document2.body, "div"));
+console.log(getElementsByTagName2(document2.body, "div")); // [div#foo, div#bar]
 console.log("end");

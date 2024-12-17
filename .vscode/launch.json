@@ -13,8 +13,8 @@
             ],
             // "program": "${workspaceFolder}/great_fe/easy/sleep.js",
             // "program": "${workspaceFolder}/practices/day2/sorting.js",
-            "program": "${workspaceFolder}/great_fe/medium/intersectionBy.js",
-            // "program": "${workspaceFolder}/practices/day_1/sorting.js",
+            // "program": "${workspaceFolder}/great_fe/medium/intersecionBy.js",
+            "program": "${workspaceFolder}/practices/day1/sorting.js",
             // "program": "${workspaceFolder}/great_fe/medium/binarySearch.js"
         }
     ]
